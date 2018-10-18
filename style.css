@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+}
+
+header{
+  /* background color */
+  background-color: darkblue;
+  /* Text color */
+  color: white;
+  /* adds space inside the header */
+  padding: 5px;
+  /* adds space outside the header */
+  margin: 5px;
+}
+
+section {
+  background-color: mintcream;
+  width: 50%;
+  color: darkblue;
+  float: left;
+  height: 300px;
+}
+ /* style only this class */
+.small-img {
+   width: 200px; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/* only apply these styles to our nav */
+nav li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
